@@ -1,0 +1,244 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	font-family: robotto, sans-serif;
+	scroll-behavior: smooth;
+	color: white;
+	transition: 1s;
+}
+body{
+	background: #311F68;
+
+}
+header{
+	position: fixed;
+	background-color: #708DDA;
+	width: 100%;
+	height: 50px;
+	top: 0;
+}
+#logo-icon{
+	width: 65px;
+	height: auto;
+	position: fixed;
+	top: 0;
+	left: 10px;
+	
+}
+#menu-icon{
+	width: 30px;
+	position: fixed;
+	right: 15px;
+	top: 10px;
+}
+#closing-icon{
+	width: 30px;
+	position: fixed;
+	right: 15px;
+	top: 10px;
+	display: none;
+}
+/*---------------footer css-------------------------------*/
+footer{
+	position: fixed;
+	background-color: #708DDA;
+	bottom: 10px;
+	width: 85%;
+	height: 50px;
+	left: 7.5%;
+	border-radius: 25px;
+}
+#home-icon{
+	position: fixed;
+	width: 30px;
+	margin-left: 7%;
+	margin-top: 10px;
+}
+#more-icon{
+	position: fixed;
+	width: 30px;
+	margin-left: 38%;
+	margin-top: 10px;
+}
+#profile-icon{
+	position: relative;
+	width: 30px;
+	margin-left: 80%;
+	margin-top: 10px;
+}
+/*-------------------menu-dropdown css-----------------------------------*/
+#menu-dropdown{
+	background-color: #708DDA;
+	top: 50px;
+	display: none;
+	position: fixed;
+	width: 50%;
+	left: 50%;
+	overflow: hidden;
+	height: 70%;
+	border-radius: 0px 0px 10px 10px;
+}
+/*--------------------categories css--------------------------------------*/
+div{
+    position: fixed;
+    top: 60px;
+    background: #5B59AD;
+    border:none;
+    width: 95%;
+    left: 2.5%;
+    bottom: 70px;
+    overflow-y: scroll;
+    border-radius: 10px;
+    overflow-x: hidden;
+    display: block;
+    text-align: center;
+}
+::-webkit-scrollbar{
+    background: transparent;
+    width: 10px;
+    height: 20px;
+}
+::-webkit-scrollbar-thumb{
+    background:#708DDA;
+    margin-top: 50px;
+    border-radius: 10px 50px 50px 10px;
+    width: 10px;
+}
+/*-----------------------------major div-----------------------------*/
+
+figure{
+	position: relative;
+	width: 500%;
+	height: 100%;
+	margin: 0;
+	left: 0;
+	animation: 30s slider infinite;
+}
+#img1{
+	width: 20%;
+	height: 100%;
+	float: left;
+	border-radius: 10px;
+}
+@keyframes slider{
+	0%{
+		left: 0;
+	}
+	20%{
+		left: -100%;
+	}
+	25%{
+		left: -100%;
+	}
+	40%{
+		left: -100%;
+	}
+	50%{
+		left: -200%;
+	}
+	70%{
+		left: -200%;
+	}
+	75%{
+		left: -300%;
+	}
+	95%{
+		left: -300%;
+	}
+	100%{
+		left: -400%;
+	}
+}
+button{
+	position: relative;
+	width: 80%;
+	height:50px ;
+	background-color: #311F68;
+	border: none;
+	margin-top: 1rem;
+	border-radius: 5px;
+}
+#img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+iframe{
+	position: relative;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	display: block;
+	overflow: hidden;
+	border: none;
+	border-radius: 10px;
+}
+#sheetdb-form{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#LoginDisplay{
+    position: fixed;
+    top: 50%;
+    background: #311F68;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    display: block;
+    left: 0;
+}
+label{
+    position: relative;
+    text-align: center;
+    color: white;
+    background: transparent;
+}
+input{
+    position: relative;
+    width: 80%;
+    text-align: center;
+    color: white;
+    background: transparent;
+    border-radius: 20px;
+}
+h1,#UserNameHolder,#EmailHolder{
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    margin-top: 10px;
+}
+#SplashScreen{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.SplashScreen{
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: white;
+	overflow: hidden;
+	display: block;
+}
+#Ad{
+	width: 80%;
+	height: auto;
+	top: 10%;
+	position: relative;
+	border-radius: 10px;
+}
+#copyright{
+	position: relative;
+	top: 10%;
+	font-size: 80%;
+}
+
