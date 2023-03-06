@@ -1,11 +1,11 @@
 let CatergoriesData='\
-<div class="major">\
 <button onclick="Animations()">Animations</button>\
 <button onclick="Movies()">Movies</button>\
 <button onclick="Series()">Series</button>\
+<button onclick="Kids()">Kids</button>\
 <button onclick="Premiering()">Premiering</button>\
 <button onclick="Oldies()">Oldies</button>\
-</div>\
+<button onclick="Religious()">Religious</button>\
 ';
 Animations=()=>{
 	DIV.innerHTML=AnimationData;
@@ -22,4 +22,10 @@ Premiering=()=>{
 }
 Oldies=()=>{
 	DIV.innerHTML=OldiesData;
+}
+Kids=()=>{
+	DIV.innerHTML=KidsData;
+}
+Religious=()=>{
+	DIV.innerHTML=ReligiousData;
 }
