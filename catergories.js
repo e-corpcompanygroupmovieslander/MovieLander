@@ -6,6 +6,7 @@ let CatergoriesData='\
 <button onclick="Premiering()">Premiering</button>\
 <button onclick="Oldies()">Oldies</button>\
 <button onclick="Religious()">Religious</button>\
+<button onclick="Translated()">Translated</button>\
 ';
 Animations=()=>{
 	DIV.innerHTML=AnimationData;
@@ -28,4 +29,7 @@ Kids=()=>{
 }
 Religious=()=>{
 	DIV.innerHTML=ReligiousData;
+}
+Translated=()=>{
+	DIV.innerHTML=TranslatedData;
 }
