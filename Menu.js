@@ -1,5 +1,5 @@
 let MenuData='\
-<button onclick="AboutUs()">About Us</button>\
+<button onclick="AboutUs()">About App</button>\
 <button onclick="ContactUS()">Contact Us</button>\
 <button onclick="MoreApps()">More Apps</button>\
 <button onclick="Privacy()">Privacy Policy</button>\
