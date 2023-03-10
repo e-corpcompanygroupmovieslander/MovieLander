@@ -18,5 +18,5 @@ MoreApps=()=>{
 	open('https://www.e-corpcompanygroup.com');
 }
 Privacy=()=>{
-	open('https://www.e-corpcompanygroup.com');
+	open('https://e-corpcompanygroup.github.io/Movies-Json/privacy.html');
 }
