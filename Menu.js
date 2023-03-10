@@ -15,7 +15,7 @@ ContactUS=()=>{
 	open('https://www.e-corpcompanygroup.com');
 }
 MoreApps=()=>{
-	open('https://www.e-corpcompanygroup.com');
+	open('https://sites.google.com/view/e-corpcompanygroup/home?authuser=1');
 }
 Privacy=()=>{
 	open('https://e-corpcompanygroup.github.io/Movies-Json/privacy.html');
