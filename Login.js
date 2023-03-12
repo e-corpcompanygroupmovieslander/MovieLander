@@ -20,6 +20,7 @@ Login=()=>{
     let UserName=document.querySelector('#UserName').value;
     let Email=document.querySelector('#Email').value;
     var form = document.getElementById('sheetdb-form');
+    button.style.display = 'none'; 
     form.addEventListener("submit", e => {
       e.preventDefault();
       fetch(form.action, {
@@ -28,7 +29,6 @@ Login=()=>{
       }).then(
           response => response.json()
       ).then((html) => {
-        button.style.display = 'none'; 
        if (UserName.length>=1&&Email.length>=1) {
         localStorage.setItem("MovieLanderUsername",UserName);
         localStorage.setItem("MovieLanderEmail",Email);
