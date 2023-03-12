@@ -20,7 +20,7 @@ Login=()=>{
     let UserName=document.querySelector('#UserName').value;
     let Email=document.querySelector('#Email').value;
     var form = document.getElementById('sheetdb-form');
-    button.style.display = 'none'; 
+    button.style.color= 'green'; 
     form.addEventListener("submit", e => {
       e.preventDefault();
       fetch(form.action, {
