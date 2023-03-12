@@ -3,6 +3,8 @@ let MenuData='\
 <button onclick="ContactUS()">Contact Us</button>\
 <button onclick="MoreApps()">More Apps</button>\
 <button onclick="Privacy()">Privacy Policy</button>\
+<button>Advertise Here</button>\
+<button>Help</button>\
 <h1 id="copyright">&copy;E-corp Company Group</h1>\
 ';
 AboutUs=()=>{
