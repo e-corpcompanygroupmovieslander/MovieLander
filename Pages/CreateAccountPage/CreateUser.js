@@ -1,5 +1,0 @@
-CREATEUSER=()=>{
-
-    alert()
-
-}

@@ -1,7 +1,0 @@
-LOGOUTPAGE=()=>{
-
-    localStorage.clear();
-
-    LOGINPAGE();
-
-}

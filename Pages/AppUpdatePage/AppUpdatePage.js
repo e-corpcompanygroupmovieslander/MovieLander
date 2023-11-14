@@ -1,5 +1,0 @@
-APPUPDATEPAGE=()=>{
-
-    open(UPDATE)
-
-}
