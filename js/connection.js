@@ -43,3 +43,7 @@ const PREMIUMPAYAMENTLINK=``;
 const MOVIELANDERPAGELINK='hehe';
 
 const FREEMOVIESLINK=`https://e-corpcompanygroupmovieslander.github.io/Movie-Lander/Advance-Native/DATABASE/ActionMovies.json`;
+
+const ForgotPasswordLink='ikg';
+
+const Termslinks='ugik';

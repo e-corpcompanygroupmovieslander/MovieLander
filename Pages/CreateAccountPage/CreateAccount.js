@@ -18,7 +18,7 @@ CREATEACCOUNTPAGE=()=>{
 
         <input type="tel" placeholder="Enter Country " >
 
-        <h1 class='Terms' >Terms And Conditions</h1>
+        <h1 onclick='TERMS()' class='Terms' >Terms And Conditions</h1>
 
         <button onclick='CREATEUSER()'>Create Account</button>
 
