@@ -47,3 +47,5 @@ const FREEMOVIESLINK=`https://e-corpcompanygroupmovieslander.github.io/Movie-Lan
 const ForgotPasswordLink='ikg';
 
 const Termslinks='ugik';
+
+const CreateAccountlink='https://sheetdb.io/api/v1/d5uzz0nzgm3wa';
