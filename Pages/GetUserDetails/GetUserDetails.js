@@ -4,7 +4,7 @@ GETUSERDETAILS=()=>{
 
     UserDetails.innerHTML=`
 
-    <img class='LoadingIcon' id='BigLoading' src='../Images/Icons/loading.png'/>
+    <img class='LoadingIcon' id='BigLoading' src='./Images/Icons/loading.png'/>
     
     `;
 
@@ -28,7 +28,7 @@ GETUSERDETAILS=()=>{
 
                     <h1 class='UserNameHolder'>${user.UserName}</h1>
 
-                    <img class='UserIcons' src='/Images/Icons/user.png'/>
+                    <img class='UserIcons' src='./Images/Icons/user.png'/>
 
                 </div>
 
@@ -36,7 +36,7 @@ GETUSERDETAILS=()=>{
 
                     <h1 class='UserNameHolder'>${user.Email}</h1>
 
-                    <img class='UserIcons' src='/Images/Icons/gmail.png'/>
+                    <img class='UserIcons' src='./Images/Icons/gmail.png'/>
 
                 </div>
 
@@ -44,7 +44,7 @@ GETUSERDETAILS=()=>{
 
                     <h1 class='UserNameHolder'>0${user.Telephone}</h1>
 
-                    <img class='UserIcons' src='/Images/Icons/phone.png'/>
+                    <img class='UserIcons' src='./Images/Icons/phone.png'/>
 
                 </div>
 
@@ -52,7 +52,7 @@ GETUSERDETAILS=()=>{
 
                     <h1 class='UserNameHolder'>${user.SecretCode}</h1>
 
-                    <img class='UserIcons' src='/Images/Icons/secretcode.png'/>
+                    <img class='UserIcons' src='./Images/Icons/secretcode.png'/>
 
                 </div>
 
@@ -60,7 +60,7 @@ GETUSERDETAILS=()=>{
 
                     <h1 class='UserNameHolder'>${user.Location}</h1>
 
-                    <img class='UserIcons' src='/Images/Icons/location.png'/>
+                    <img class='UserIcons' src='./Images/Icons/location.png'/>
 
                 </div>
 
@@ -70,7 +70,7 @@ GETUSERDETAILS=()=>{
 
                         <h1 class='UserNameHolder'>Saved</h1>
 
-                        <img class='UserIcons' src='/Images/Icons/saved.png'/>
+                        <img class='UserIcons' src='./Images/Icons/saved.png'/>
                     
                     </div>
 
@@ -78,7 +78,7 @@ GETUSERDETAILS=()=>{
 
                         <h1 class='UserNameHolder'>MoreApps</h1>
 
-                        <img class='UserIcons' src='/Images/Icons/app.png'/>
+                        <img class='UserIcons' src='./Images/Icons/app.png'/>
                     
                     </div>
                 

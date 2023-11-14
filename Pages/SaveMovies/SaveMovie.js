@@ -13,7 +13,7 @@ SAVEMOVIES = (element) => {
         // Save the updated array back to localStorage
         localStorage.setItem('SavedMovies', JSON.stringify(SAVEMOVIES));
 
-        SaveMovieIcon.src = '/Images/Icons/save.png';
+        SaveMovieIcon.src = './Images/Icons/save.png';
     } else {
         // Add the new element to the array
         SAVEMOVIES.push(element);
@@ -21,6 +21,6 @@ SAVEMOVIES = (element) => {
         // Save the updated array back to localStorage
         localStorage.setItem('SavedMovies', JSON.stringify(SAVEMOVIES));
 
-        SaveMovieIcon.src = '/Images/Icons/saved.png';
+        SaveMovieIcon.src = './Images/Icons/saved.png';
     }
 }

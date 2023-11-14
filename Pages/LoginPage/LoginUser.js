@@ -12,7 +12,7 @@ LOGINUSER=()=>{
 
         LoginButton.innerHTML=  `
         
-        <img class='LoadingIcon' src='../Images/Icons/loading.png'/>
+        <img class='LoadingIcon' src='./Images/Icons/loading.png'/>
 
         ` ;
 

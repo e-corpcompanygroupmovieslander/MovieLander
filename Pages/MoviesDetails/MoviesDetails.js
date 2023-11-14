@@ -4,7 +4,7 @@ MOVIESDETAILS=(element)=>{
 
     <img class='MoviesImage' src='${MOVIESPATH+element.MovieImage}'/>
 
-    <img onclick='HOMEPAGE()' class='BackIcon' src='../Images/Icons/back.png'/>
+    <img onclick='HOMEPAGE()' class='BackIcon' src='./Images/Icons/back.png'/>
 
     <img id='SaveMovieIcon'  class='SaveIcon' src=''/>
 
@@ -20,7 +20,7 @@ MOVIESDETAILS=(element)=>{
 
             <div class='Sections'>
             
-                <img  class='SectionIcon' src='../Images/Icons/grid.png'/>
+                <img  class='SectionIcon' src='./Images/Icons/grid.png'/>
                 
                 <h1 class='MovieCatergories'>${element.Catergory}</h1>
 
@@ -36,7 +36,7 @@ MOVIESDETAILS=(element)=>{
 
             <div class='Sections'>
             
-                <img id='RatingIcon'  class='SectionIcon' src='../Images/Icons/rate.png'/>
+                <img id='RatingIcon'  class='SectionIcon' src='./Images/Icons/rate.png'/>
                 
                 <h1 class='MovieCatergories'>${element.Rated}</h1>
 
@@ -46,11 +46,11 @@ MOVIESDETAILS=(element)=>{
 
         <div id='RoundedFooterMovieDetails' class='RoundFooter'>
 
-            <img id='ReviewSection' class='RoundFooterIcon' src='/Images/Icons/review.png'/>
+            <img id='ReviewSection' class='RoundFooterIcon' src='./Images/Icons/review.png'/>
 
-            <img id='MoviesDataPage' class='RoundFooterIcon' src='/Images/Icons/library.png'/>
+            <img id='MoviesDataPage' class='RoundFooterIcon' src='./Images/Icons/library.png'/>
 
-            <img onclick='MAINPAGESITE()' class='RoundFooterIcon' id='MoreIcon' src='/Images/Icons/more.png'/>
+            <img onclick='MAINPAGESITE()' class='RoundFooterIcon' id='MoreIcon' src='./Images/Icons/more.png'/>
 
         </div>
     
@@ -64,13 +64,13 @@ MOVIESDETAILS=(element)=>{
 
     if (element.Subscription) {
         
-        PremiumIcon.src='../../Images/Icons/lock.png';
+        PremiumIcon.src='./Images/Icons/lock.png';
 
         PremiumMessage.innerHTML='Paid';
 
     } else {
        
-        PremiumIcon.src='../../Images/Icons/unlocked.png';
+        PremiumIcon.src='./Images/Icons/unlocked.png';
 
         PremiumMessage.innerHTML='Free';
         
@@ -95,11 +95,11 @@ MOVIESDETAILS=(element)=>{
            // If the movie is already saved, remove it from the array
            SAVEDMOVIES = SAVEDMOVIES.filter(savedMovie => savedMovie.MovieName !== element.MovieName);
    
-           SaveMovieIcon.src = '../Images/Icons/saved.png';
+           SaveMovieIcon.src = './Images/Icons/saved.png';
 
        } else {
          
-           SaveMovieIcon.src = '../Images/Icons/save.png';
+           SaveMovieIcon.src = './Images/Icons/save.png';
        }
   
     SaveMovieIcon.addEventListener('click',()=>{

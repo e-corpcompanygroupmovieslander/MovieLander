@@ -8,7 +8,7 @@ MODES=()=>{
         
         ModeId.innerHTML='Dark';
 
-        ModeImageId.src='../../Images/Icons/moon.png';
+        ModeImageId.src='./Images/Icons/moon.png';
 
         localStorage.setItem('ModeColour','#5C829A');
 
@@ -21,7 +21,7 @@ MODES=()=>{
         
         ModeId.innerHTML='Light';
 
-        ModeImageId.src='../../Images/Icons/sun.png';
+        ModeImageId.src='./Images/Icons/sun.png';
 
         localStorage.setItem('ModeColour','#00000080');
 

@@ -2,7 +2,7 @@ PRIVACYPOLICYPAGE=()=>{
 
     DIV.innerHTML=`
 
-    <img onclick='SETTINGSPAGE()' class='BackIcon' src='../Images/Icons/back.png'/>
+    <img onclick='SETTINGSPAGE()' class='BackIcon' src='./Images/Icons/back.png'/>
     
     <h1  class='RecommendedSeeMore'> App Privacy Policy</h1>
 

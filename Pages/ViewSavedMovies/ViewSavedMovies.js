@@ -3,7 +3,7 @@ VIEWSAVEDMOVIES = () => {
     DIV.innerHTML = `
 
         <div id='SavedMoviesDiv' class='MainDiv'></div>
-        <img onclick='USERACCOUNTPAGE()' class='BackIcon' src='../Images/Icons/back.png'/>
+        <img onclick='USERACCOUNTPAGE()' class='BackIcon' src='./Images/Icons/back.png'/>
     
     `;
 
@@ -23,7 +23,7 @@ VIEWSAVEDMOVIES = () => {
             MoviesDivHolder.classList.add('SeeMoviesDivHolder');
 
             const MOVIESIMAGE=document.createElement('img');
-            MOVIESIMAGE.src='../Images/Logos/movie lander logo.jpg';
+            MOVIESIMAGE.src='./Images/Logos/movie lander logo.jpg';
             MOVIESIMAGE.classList.add('ADVERTSIMAGE');
 
             MOVIESIMAGE.addEventListener('load',()=>{

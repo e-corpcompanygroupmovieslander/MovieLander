@@ -2,7 +2,7 @@ SETTINGSPAGE=()=>{
 
     DIV.innerHTML=`
 
-    <img onclick='USERACCOUNTPAGE()' class='BackIcon' src='../Images/Icons/back.png'/>
+    <img onclick='USERACCOUNTPAGE()' class='BackIcon' src='./Images/Icons/back.png'/>
     
     <h1  class='RecommendedSeeMore'> App Settings</h1>
 
@@ -12,7 +12,7 @@ SETTINGSPAGE=()=>{
 
             <h1 class='UserNameHolder'>Parental Control</h1>
 
-            <img class='UserIcons' src='/Images/Icons/parentalcontrol.png'/>
+            <img class='UserIcons' src='./Images/Icons/parentalcontrol.png'/>
 
         </div>
 
@@ -20,7 +20,7 @@ SETTINGSPAGE=()=>{
 
             <h1 class='UserNameHolder'>Privacy Policy</h1>
 
-            <img class='UserIcons' src='/Images/Icons/privacypolicy.png'/>
+            <img class='UserIcons' src='./Images/Icons/privacypolicy.png'/>
 
         </div>
 
@@ -28,7 +28,7 @@ SETTINGSPAGE=()=>{
 
             <h1 class='UserNameHolder'>Help</h1>
 
-            <img class='UserIcons' src='/Images/Icons/help.png'/>
+            <img class='UserIcons' src='./Images/Icons/help.png'/>
 
         </div>
 
@@ -44,7 +44,7 @@ SETTINGSPAGE=()=>{
 
             <h1 class='UserNameHolder'>Contact Us</h1>
 
-            <img class='UserIcons' src='/Images/Icons/phone.png'/>
+            <img class='UserIcons' src='./Images/Icons/phone.png'/>
 
         </div>
 
@@ -62,7 +62,7 @@ SETTINGSPAGE=()=>{
 
                 <h1 class='UserNameHolder'>LogOut</h1>
 
-                <img class='UserIcons' src='/Images/Icons/logout.png'/>
+                <img class='UserIcons' src='./Images/Icons/logout.png'/>
             
             </div>
 
@@ -80,13 +80,13 @@ SETTINGSPAGE=()=>{
         
         ModeId.innerHTML='Dark';
 
-        ModeImageId.src='../../Images/Icons/moon.png';
+        ModeImageId.src='./Images/Icons/moon.png';
 
     } else {
         
         ModeId.innerHTML='Light';
 
-        ModeImageId.src='../../Images/Icons/sun.png';
+        ModeImageId.src='./Images/Icons/sun.png';
 
     }
 

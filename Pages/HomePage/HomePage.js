@@ -51,11 +51,11 @@ HOMEPAGE=()=>{
     
     <div class='RoundFooter' id='HomeFooter'>
 
-        <img onclick='CATORGORYPAGE()' class='RoundFooterIcon' src='/Images/Icons/list.png'/>
+        <img onclick='CATORGORYPAGE()' class='RoundFooterIcon' src='./Images/Icons/list.png'/>
 
-        <img onclick='FREEMOVIES()' class='RoundFooterIcon' src='/Images/Icons/movies.png'/>
+        <img onclick='FREEMOVIES()' class='RoundFooterIcon' src='./Images/Icons/movies.png'/>
 
-        <img onclick='USERACCOUNTPAGE()' class='RoundFooterIcon' src='/Images/Icons/profile.png'/>
+        <img onclick='USERACCOUNTPAGE()' class='RoundFooterIcon' src='./Images/Icons/profile.png'/>
     
     </div>
     
@@ -82,7 +82,7 @@ HOMEPAGE=()=>{
        
         Main.innerHTML=`
     
-        <img class='LoadingIcon' id='BigLoading' src='../Images/Icons/loading.png'/>
+        <img class='LoadingIcon' id='BigLoading' src='./Images/Icons/loading.png'/>
     
         `;
     

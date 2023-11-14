@@ -5,7 +5,7 @@ REVIEWMOVIE = (element) => {
             <div id='ReviewDivs' class='ParentalControlDiv'></div>
             <input id='ReviewInput' class='ParentalControlInput' type="text" maxlength="1000" placeholder="Write Your Thoughts Here">
             <button id='SaveReview' class='ParentalControlButton'>Save Review</button>
-            <img id='BackIcon' class='BackIcon' src='../Images/Icons/back.png'/>
+            <img id='BackIcon' class='BackIcon' src='./Images/Icons/back.png'/>
         </div>
     `;
 

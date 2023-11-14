@@ -2,7 +2,7 @@ CONTACTUS=()=>{
 
     DIV.innerHTML=`
 
-    <img onclick='SETTINGSPAGE()' class='BackIcon' src='../Images/Icons/back.png'/>
+    <img onclick='SETTINGSPAGE()' class='BackIcon' src='./Images/Icons/back.png'/>
     
     <h1  class='RecommendedSeeMore'>App Contact</h1>
 
@@ -12,7 +12,7 @@ CONTACTUS=()=>{
 
             <h1 class='UserNameHolder'>G-Mail</h1>
 
-            <img class='UserIcons' src='/Images/Icons/gmail.png'/>
+            <img class='UserIcons' src='./Images/Icons/gmail.png'/>
 
         </div>
 
@@ -20,7 +20,7 @@ CONTACTUS=()=>{
 
             <h1 class='UserNameHolder'>E-corp Company Group</h1>
 
-            <img class='UserIcons' src='/Images/Icons/internet.png'/>
+            <img class='UserIcons' src='./Images/Icons/internet.png'/>
 
         </div>
 
@@ -28,7 +28,7 @@ CONTACTUS=()=>{
 
             <h1 class='UserNameHolder'>Telephone </h1>
 
-            <img class='UserIcons' src='/Images/Icons/phone.png'/>
+            <img class='UserIcons' src='./Images/Icons/phone.png'/>
 
         </div>
 
@@ -36,7 +36,7 @@ CONTACTUS=()=>{
 
             <h1 class='UserNameHolder'>Instagram</h1>
 
-            <img class='UserIcons' src='/Images/Icons/instagram.png'/>
+            <img class='UserIcons' src='./Images/Icons/instagram.png'/>
 
         </div>
 

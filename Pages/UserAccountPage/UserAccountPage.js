@@ -1,18 +1,35 @@
 USERACCOUNTPAGE=()=>{
 
-    DIV.innerHTML=`
+    if (navigator.onLine) {
+          
+        DIV.innerHTML=`
 
-    <img onclick='HOMEPAGE()' class='BackIcon' src='../Images/Icons/back.png'/>
+        <img onclick='HOMEPAGE()' class='BackIcon' src='./Images/Icons/back.png'/>
 
-    <img onclick='PREMIUMPAYAMENT()'  class='PremiumIcon' src='../Images/Icons/lock.png'/>
+        <img onclick='PREMIUMPAYAMENT()'  class='PremiumIcon' src='./Images/Icons/lock.png'/>
 
-    <img  onclick='SETTINGSPAGE()' class='SettingsIcon' src='../Images/Icons/setting.png'/>
+        <img  onclick='SETTINGSPAGE()' class='SettingsIcon' src='./Images/Icons/setting.png'/>
 
-    <div class='UserDetails'></div>
+        <div class='UserDetails'></div>
 
 
-    `;
+        `;
 
-    GETUSERDETAILS();
+        GETUSERDETAILS();
+
+    } else {
+        
+        DIV.innerHTML=`
+
+        <img onclick='HOMEPAGE()' class='BackIcon' src='./Images/Icons/back.png'/>
+    
+      
+        <img class='LoadingIcon' id='BigLoading' src='./Images/Icons/loading.png'/>
+    
+    
+        `;
+        
+    }
+
     
 }

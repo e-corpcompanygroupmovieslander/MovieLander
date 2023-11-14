@@ -18,7 +18,7 @@ RECOMMENDEDANIMATION=()=>{
             MoviesDivHolder.classList.add('MoviesDivHolder');
 
             const MOVIESIMAGE=document.createElement('img');
-            MOVIESIMAGE.src='../Images/Logos/movie lander logo.jpg';
+            MOVIESIMAGE.src='./Images/Logos/movie lander logo.jpg';
             MOVIESIMAGE.classList.add('ADVERTSIMAGE');
 
             MOVIESIMAGE.addEventListener('load',()=>{

@@ -4,7 +4,7 @@ MOVIESDATA=(element)=>{
 
     <div id='SavedMoviesDiv' class='MainDiv'></div>
 
-    <img id='BackIcon'  class='BackIcon' src='../Images/Icons/back.png'/>
+    <img id='BackIcon'  class='BackIcon' src='./Images/Icons/back.png'/>
 
     `;
 

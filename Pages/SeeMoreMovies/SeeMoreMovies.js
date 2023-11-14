@@ -32,7 +32,7 @@ SEEMOREMOVIES=(URL)=>{
             MoviesDivHolder.classList.add('SeeMoviesDivHolder');
 
             const MOVIESIMAGE=document.createElement('img');
-            MOVIESIMAGE.src='../Images/Logos/movie lander logo.jpg';
+            MOVIESIMAGE.src='./Images/Logos/movie lander logo.jpg';
             MOVIESIMAGE.classList.add('ADVERTSIMAGE');
 
             MOVIESIMAGE.addEventListener('load',()=>{

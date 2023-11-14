@@ -18,7 +18,7 @@ ADVERTSPAGE=()=>{
             ADVERTSDIV.append(ADVERTSDIVHOLDER);
 
             const ADVERTSIMAGE=document.createElement('img');
-            ADVERTSIMAGE.src='../Images/Logos/movie lander logo.jpg';
+            ADVERTSIMAGE.src='./Images/Logos/movie lander logo.jpg';
             ADVERTSIMAGE.classList.add('ADVERTSIMAGE');
 
             ADVERTSIMAGE.addEventListener('load',()=>{
