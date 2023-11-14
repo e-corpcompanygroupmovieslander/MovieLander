@@ -1,0 +1,10 @@
+.MyReview{
+    position: relative;
+    width: 90%;
+    word-wrap: break-word;
+    text-align: left;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: block;
+
+}

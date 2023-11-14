@@ -1,0 +1,44 @@
+.AppName{
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.Message{
+    position: relative;
+    text-align: center;
+    font-style: italic;
+}
+
+.ForgotPassword{
+    position: relative;
+    text-align: right;
+    right: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.Terms{
+    position: relative;
+    text-align: left;
+    left: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.LoadingIcon{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    animation: spin 2s linear infinite;
+    -webkit-animation: spin  2s linear infinite ;
+}
+
+@keyframes spin {
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+    
+}

@@ -1,0 +1,21 @@
+.ParentalControlInput{
+    position: absolute;
+    bottom: 12%;
+}
+
+.ParentalControlButton{
+    position: absolute;
+    bottom: 1%;
+}
+
+.ParentalControlDiv{
+    position: absolute;
+    background: transparent;
+    width: 100%;
+    height: auto;
+    top: 0;
+    bottom: 20%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 1rem;
+}

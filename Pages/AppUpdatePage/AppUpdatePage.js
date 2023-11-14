@@ -1,0 +1,5 @@
+APPUPDATEPAGE=()=>{
+
+    open(UPDATE)
+
+}

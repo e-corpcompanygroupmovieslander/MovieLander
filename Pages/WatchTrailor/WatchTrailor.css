@@ -1,0 +1,19 @@
+.TrailorPlayer{
+position: fixed;
+width: 100%;
+top: 10%;
+height: 80%;
+border: none;
+display: block;
+}
+
+.MovieHolderPlayer{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    height: auto;
+    background: black;
+    
+}
+
