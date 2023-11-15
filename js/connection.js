@@ -1,14 +1,14 @@
 const LOGINURL='https://script.googleusercontent.com/macros/echo?user_content_key=FrRUgOqf3VCxfuxM0DsEGIbG4WJO7w6hzhW1PCjyGpXHv6s8QNW9KDYTTTgy6pgCb5mZAG3Xu4iV4iuzcr_Qqk6eBXABdmilm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnC6FucGMPJDFo1vc7xUPuBYfMxKKRVodlYbzMzCKjeT4wckk24qUxiiMTCfM25DUQrZEICugxLUlQqQnl1bAwtTGq09GeSHZLQ&lib=MVjI1E0k9FXqhcOE_zgy4zMSoMAbC-O1l';
 
-const ADVERTSLINK='https://e-corpcompanygroupmovieslander.github.io/Movie-Lander/Advance-Native/DATABASE/Adverts.json';
+const ADVERTSLINK='https://script.googleusercontent.com/macros/echo?user_content_key=_FX5ZQszJTEaomt8vckUHZsbkYxs62AufD0I_MQsx3CbUUTVaKGIsVxa81TnknHluq86maqwEExLI40xhzNBlzOz-3r4R4-bm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnMm14i5DlW2geHNLZPLM52lioxem8eoSFBSyqk07ilFVS9WmMu3qXi9UzJNBBOXMuvjnNWGKIg_NChXL98fYqjXBIndAU2515A&lib=M6UN6W68Hd-KGliVyb1fwhsSoMAbC-O1l';
 
 const ANIMATIONLINK='https://script.googleusercontent.com/macros/echo?user_content_key=B9fqEvmtnCCHwDCnZ-5sSu71toz4MzoTxrf315wtfIEHuxNM5Cu_h2HZT9xGl4tilFh7FjC1IIzjdkEWCGntE5bEmMeoK2vDm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnOAkcG97VzAwakN9YYUAFyQRPRZikRmdTl4f6LGzID4_cBMsR6pkaEiX2dzEcjXvsk_3lB6gifItW4UIJWMKj6fcYTTmUjnljQ&lib=Mr4rCsHrrWb3rNW8Tj5K_BsSoMAbC-O1l';
 
-const MOVIESLINK='https://e-corpcompanygroupmovieslander.github.io/Movie-Lander/Advance-Native/DATABASE/ActionMovies.json';
+const MOVIESLINK='https://script.googleusercontent.com/macros/echo?user_content_key=-wyaXIk2LhJxjEot2-J8yJrsUAthsjEuSflUQbGS5zlpBYnPiCfK_ZVdaUyv6e-LaeiPvJ-UFmRzcEWHc5q_jB7hFYJAp46rm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnDpdlXrhatqbPKt7BRJFGGfTbTFKzkRnaU9faRB-PSiYqzTKNjF7_afRqcVCy72IkaUZP1Zr8kPCXRZ8mygltoP8jZy92zlTvQ&lib=MEKtXqESjgHfLHHki-QC018SoMAbC-O1l';
 
-const MARATHONLINK='https://e-corpcompanygroupmovieslander.github.io/Movie-Lander/Advance-Native/DATABASE/Marathons.json';
+const MARATHONLINK='https://script.googleusercontent.com/macros/echo?user_content_key=4h_-27rI62OfAGSV2c29WtoCl6YETYCJX0vpDo1RMdnDwLvHKBNZNSLDWpbB83L-SyZigKFExh6ZeXoYSY24O3idT_syjHSvm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnIaViSFNVQZXawoto517r5wReIJEcf85lSrVGv5-jKGajKw4B2rlNHa5iJn66sSV0x53dkvwDeqiKtshBISUlPhedgLHmD5cLNz9Jw9Md8uu&lib=MIlvftCLwUMlWM4P90Cg59OzilWmV86UI';
 
-const SERIESLINK='https://e-corpcompanygroupmovieslander.github.io/Movie-Lander/Advance-Native/DATABASE/Series.json';
+const SERIESLINK='https://script.googleusercontent.com/macros/echo?user_content_key=cy9bom1bKXuTBJzfZO3tKWRCKOCPpo4XuRNPXugEJljbiu3J4HU8WBN6fkmv1vFQZOJEykHAv_lLI40xhzNBl4UZmzCwcsKGm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnEJXWTWEmQV3vbLisx1M41MVSPMIlvbgb7ret2IRQufM5It6i0QCerPYusNIyt1sw8McbxR9rEG9ov2vp85HxkuuwjhMb0MiNQ&lib=MwQgUIcuxmyXqt7kGj5PZ68SoMAbC-O1l';
 
 const MOVIESPATH=`https://e-corpcompanygroupmovieslander.github.io/Movie-Lander/Advance-Native/ASSETS/MOVIES/POSTERS/`;
 
@@ -42,12 +42,12 @@ const PREMIUMPAYAMENTLINK=``;
 
 const MOVIELANDERPAGELINK='hehe';
 
-const FREEMOVIESLINK=`https://e-corpcompanygroupmovieslander.github.io/Movie-Lander/Advance-Native/DATABASE/ActionMovies.json`;
+const FREEMOVIESLINK=`https://script.googleusercontent.com/macros/echo?user_content_key=HKt-oFgq9a8pP6TFyPPkT_qhaTlGetxG2UYPkNQxW1_DqippS6C69CuSbjuKoWOY2MQtV7TGIaIn00_6n6HUrUIbtmWEb0A3m5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnG-yaZykjSDVpa22v3k4sN9hO6SWDHV_YK53U_Ee33aDg-Fk-JZJLpowmpSd2FzRq8YfXH-Sm77UiQMhAb443E7fniuLu6rw4tz9Jw9Md8uu&lib=M4nmkbmqn1uDLvVyEshwWJ-zilWmV86UI`;
 
 const ForgotPasswordLink='ikg';
 
 const Termslinks='ugik';
 
-const CreateAccountlink='https://sheetdb.io/api/v1/py9209hwk75pt';
+const CreateAccountlink='https://sheetdb.io/api/v1/nwc20egm4p5nd';
 
-//ParentalControl
+const MODE='cors';
