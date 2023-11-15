@@ -16,7 +16,7 @@ const ADVERTSPATH=`https://e-corpcompanygroupmovieslander.github.io/MovieLander/
 
 const TRAILORPATH=`https://www.youtube-nocookie.com/embed/`;
 
-const CATERGORYLINK='https://e-corpcompanygroupmovieslander.github.io/Movie-Lander/Advance-Native/DATABASE/Catergories.json';
+const CATERGORYLINK='https://script.googleusercontent.com/macros/echo?user_content_key=73Zwb7PgOiKcWAkB8NtGkxfTc90BF9hrUmlWuNnkEviGIBt_rLKR5KcodIDbs_5XVUVVNmV5vcOK_WrIR7FWe5EXZUIScDyBm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnDAKcfISMWUvHYXMr5T0pgs4s_9FQHlxjb9feZm4btJ2cCHRmXMUjSkir9e7UGF7ELAFNcuA7nAFjqm93KgKPC3n5M9lbpsdpNz9Jw9Md8uu&lib=MFCxisweHYcb5KS6xW-H5O-zilWmV86UI';
 
 const CATERGORIESPATH=`https://e-corpcompanygroupmovieslander.github.io/MovieLander/CATERGORIES/`;
 
