@@ -12,7 +12,7 @@ const SERIESLINK='https://script.googleusercontent.com/macros/echo?user_content_
 
 const MOVIESPATH=`https://e-corpcompanygroupmovieslander.github.io/Movie-Lander/Advance-Native/ASSETS/MOVIES/POSTERS/`;
 
-const ADVERTSPATH=`https://e-corpcompanygroupmovieslander.github.io/Movie-Lander/Advance-Native/ASSETS/MOVIES/ADVERTS/`;
+const ADVERTSPATH=`https://e-corpcompanygroupmovieslander.github.io/MovieLander/AdvertsImages/`;
 
 const TRAILORPATH=`https://www.youtube-nocookie.com/embed/`;
 
