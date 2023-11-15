@@ -10,7 +10,7 @@ const MARATHONLINK='https://script.googleusercontent.com/macros/echo?user_conten
 
 const SERIESLINK='https://script.googleusercontent.com/macros/echo?user_content_key=cy9bom1bKXuTBJzfZO3tKWRCKOCPpo4XuRNPXugEJljbiu3J4HU8WBN6fkmv1vFQZOJEykHAv_lLI40xhzNBl4UZmzCwcsKGm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnEJXWTWEmQV3vbLisx1M41MVSPMIlvbgb7ret2IRQufM5It6i0QCerPYusNIyt1sw8McbxR9rEG9ov2vp85HxkuuwjhMb0MiNQ&lib=MwQgUIcuxmyXqt7kGj5PZ68SoMAbC-O1l';
 
-const MOVIESPATH=`https://e-corpcompanygroupmovieslander.github.io/Movie-Lander/Advance-Native/ASSETS/MOVIES/POSTERS/`;
+const MOVIESPATH=`https://e-corpcompanygroupmovieslander.github.io/MovieLander/MoviesPosters/`;
 
 const ADVERTSPATH=`https://e-corpcompanygroupmovieslander.github.io/MovieLander/AdvertsImages/`;
 
