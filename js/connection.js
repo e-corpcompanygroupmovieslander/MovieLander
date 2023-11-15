@@ -18,7 +18,7 @@ const TRAILORPATH=`https://www.youtube-nocookie.com/embed/`;
 
 const CATERGORYLINK='https://e-corpcompanygroupmovieslander.github.io/Movie-Lander/Advance-Native/DATABASE/Catergories.json';
 
-const CATERGORIESPATH=`https://e-corpcompanygroupmovieslander.github.io/Movie-Lander/Advance-Native/ASSETS/CATERGORIES/`;
+const CATERGORIESPATH=`https://e-corpcompanygroupmovieslander.github.io/MovieLander/CATERGORIES/`;
 
 const HELPTEXT=`/Pages/HelpPage/Help.txt`;
 
