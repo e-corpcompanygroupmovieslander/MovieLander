@@ -1,4 +1,5 @@
 USERACTIVITY=()=>{
 
-  alert('')
+  console.log('User Opened Up')
+  
 }
