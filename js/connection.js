@@ -24,7 +24,7 @@ const HELPTEXT=`/Pages/HelpPage/Help.txt`;
 
 const UPDATE=`here`;
 
-const PRIVACYTEXT=`/Pages/PrivacyPolicyPage/privacyPolicy.txt`;
+const PRIVACYTEXT=`https://e-corpcompanygroupmovieslander.github.io/MovieLander/PrivacyPolicyPage/PrivacyPolicy.txt`;
 
 const PARENTALCONTROLTEXT=`/Pages/ParentalControlPage/ParentalControl.txt`;
 
