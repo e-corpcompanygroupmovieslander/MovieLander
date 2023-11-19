@@ -20,7 +20,7 @@ const CATERGORYLINK='https://script.googleusercontent.com/macros/echo?user_conte
 
 const CATERGORIESPATH=`https://e-corpcompanygroupmovieslander.github.io/MovieLander/CATERGORIES/`;
 
-const HELPTEXT=`/Pages/HelpPage/Help.txt`;
+const HELPTEXT=`https://e-corpcompanygroupmovieslander.github.io/MovieLander/HelpPage/HelpPage.txt`;
 
 const UPDATE=`here`;
 
