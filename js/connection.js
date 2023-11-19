@@ -52,3 +52,4 @@ const CreateAccountlink='https://sheetdb.io/api/v1/nwc20egm4p5nd';
 
 const MODE='cors';
 
+const MOVIEPATH='https://drive.google.com/uc?export=download&id=';
