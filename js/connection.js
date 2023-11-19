@@ -36,7 +36,7 @@ const TELEPHONELINK=`0777187395`;
 
 const INSTAGRAMLINK=`ig`;
 
-const MOREAPPSLINK=`ig`;
+const MOREAPPSLINK=`https://script.googleusercontent.com/macros/echo?user_content_key=LKxwjuinC5ZmWbRncQj0nUwSwXKADTwv5xGfCCv3Tg7LguXyGjMS02QaDDfTOhCeQu5JNm8NUZSWOCRelh4h8pINjcWXmdUmm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnJAxInbGJwPEjZhGCuKhxCZeYLuntfgTpdBTwLd_e6uNDKcc-yF7VHtFnbexc1gXm5RC18NrtK2yu7TVI5lklsMMPmtozgPBbNz9Jw9Md8uu&lib=MzcnxIwsQ0SlCWA4i-RzuSuzilWmV86UI`;
 
 const PREMIUMPAYAMENTLINK=``;
 
