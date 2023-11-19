@@ -26,7 +26,7 @@ const UPDATE=`here`;
 
 const PRIVACYTEXT=`https://e-corpcompanygroupmovieslander.github.io/MovieLander/PrivacyPolicyPage/PrivacyPolicy.txt`;
 
-const PARENTALCONTROLTEXT=`/Pages/ParentalControlPage/ParentalControl.txt`;
+const PARENTALCONTROLTEXT=`https://e-corpcompanygroupmovieslander.github.io/MovieLander/ParentalControlPage/ParentalControl.txt`;
 
 const GAMAILLINK='movielander1999@gmail.com';
 
