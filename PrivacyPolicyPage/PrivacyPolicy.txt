@@ -1,1 +1,8 @@
-<h1 class='PrivacyPolicyTitle'>Private Policy</h1>
+<h1 class='PrivacyPolicyTitle'>Privacy Policy</h1>
+<h1 class='SubTopic'>Usage Policy </h1>
+<p class='Details'>
+ &nbsp &nbsp Movie Lander is a Enterianment app that provides users generated conteneted from different content maker (Movies).
+<br>
+Movie Lander has a variety of movies that are both entertaining and educational depending on the genre the user goes for ,basing on the privacy policy of this year movie lander has updated its user policy and mostly the Use Generated Content and mode of distribution.
+
+</p>
