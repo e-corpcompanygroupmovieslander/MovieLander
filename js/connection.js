@@ -46,7 +46,7 @@ const FREEMOVIESLINK=`https://script.googleusercontent.com/macros/echo?user_cont
 
 const ForgotPasswordLink='ikg';
 
-const Termslinks='ugik';
+const Termslinks='https://e-corpcompanygroupmovieslander.github.io/MovieLander/TermsAndConditionPage/TermsAndConditions.txt';
 
 const CreateAccountlink='https://sheetdb.io/api/v1/nwc20egm4p5nd';
 
