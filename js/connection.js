@@ -54,4 +54,4 @@ const MODE='cors';
 
 const MOVIEPATH='https://drive.google.com/uc?export=download&id=';
 
-const NewVersion='7.1';
+const NewVersion='7.2';
