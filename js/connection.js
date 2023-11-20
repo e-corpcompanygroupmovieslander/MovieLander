@@ -48,7 +48,7 @@ const ForgotPasswordLink='ikg';
 
 const Termslinks='https://e-corpcompanygroupmovieslander.github.io/MovieLander/TermsAndConditionPage/TermsAndConditions.txt';
 
-const CreateAccountlink='https://sheetdb.io/api/v1/nwc20egm4p5nd';
+const CreateAccountlink='https://sheetdb.io/api/v1/ycr0xzpkq59v7';
 
 const MODE='cors';
 
