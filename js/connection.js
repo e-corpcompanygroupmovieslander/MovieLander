@@ -52,6 +52,6 @@ const MONITORINGLINK=`https://sheetdb.io/api/v1/7ggamn0q7761a`;
 
 const MODE='cors';
 
-const NewVersion='7.2';
+const NewVersion='7.3';
 
 const UpatedNeeded='';
