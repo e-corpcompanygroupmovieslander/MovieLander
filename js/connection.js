@@ -12,10 +12,6 @@ const SERIESLINK='https://script.googleusercontent.com/macros/echo?user_content_
 
 const MOVIESPATH=`https://e-corpcompanygroupmovieslander.github.io/MovieLander/MoviesPosters/`;
 
-const ADVERTSPATH=`https://e-corpcompanygroupmovieslander.github.io/MovieLander/AdvertsImages/`;
-
-const TRAILORPATH=`https://www.youtube-nocookie.com/embed/`;
-
 const CATERGORYLINK='https://script.googleusercontent.com/macros/echo?user_content_key=73Zwb7PgOiKcWAkB8NtGkxfTc90BF9hrUmlWuNnkEviGIBt_rLKR5KcodIDbs_5XVUVVNmV5vcOK_WrIR7FWe5EXZUIScDyBm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnDAKcfISMWUvHYXMr5T0pgs4s_9FQHlxjb9feZm4btJ2cCHRmXMUjSkir9e7UGF7ELAFNcuA7nAFjqm93KgKPC3n5M9lbpsdpNz9Jw9Md8uu&lib=MFCxisweHYcb5KS6xW-H5O-zilWmV86UI';
 
 const CATERGORIESPATH=`https://e-corpcompanygroupmovieslander.github.io/MovieLander/CATERGORIES/`;
@@ -28,6 +24,14 @@ const PRIVACYTEXT=`https://e-corpcompanygroupmovieslander.github.io/MovieLander/
 
 const PARENTALCONTROLTEXT=`https://e-corpcompanygroupmovieslander.github.io/MovieLander/ParentalControlPage/ParentalControl.txt`;
 
+const MOREAPPSLINK=`https://script.googleusercontent.com/macros/echo?user_content_key=LKxwjuinC5ZmWbRncQj0nUwSwXKADTwv5xGfCCv3Tg7LguXyGjMS02QaDDfTOhCeQu5JNm8NUZSWOCRelh4h8pINjcWXmdUmm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnJAxInbGJwPEjZhGCuKhxCZeYLuntfgTpdBTwLd_e6uNDKcc-yF7VHtFnbexc1gXm5RC18NrtK2yu7TVI5lklsMMPmtozgPBbNz9Jw9Md8uu&lib=MzcnxIwsQ0SlCWA4i-RzuSuzilWmV86UI`;
+
+const FREEMOVIESLINK=`https://script.googleusercontent.com/macros/echo?user_content_key=HKt-oFgq9a8pP6TFyPPkT_qhaTlGetxG2UYPkNQxW1_DqippS6C69CuSbjuKoWOY2MQtV7TGIaIn00_6n6HUrUIbtmWEb0A3m5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnG-yaZykjSDVpa22v3k4sN9hO6SWDHV_YK53U_Ee33aDg-Fk-JZJLpowmpSd2FzRq8YfXH-Sm77UiQMhAb443E7fniuLu6rw4tz9Jw9Md8uu&lib=M4nmkbmqn1uDLvVyEshwWJ-zilWmV86UI`;
+
+const Termslinks='https://e-corpcompanygroupmovieslander.github.io/MovieLander/TermsAndConditionPage/TermsAndConditions.txt';
+
+const ADVERTSPATH=`https://e-corpcompanygroupmovieslander.github.io/MovieLander/AdvertsImages/`;
+
 const GAMAILLINK='movielander1999@gmail.com';
 
 const WEBSITELINK=`www.e-corpcompanygroup.com`;
@@ -36,22 +40,18 @@ const TELEPHONELINK=`0777187395`;
 
 const INSTAGRAMLINK=`ig`;
 
-const MOREAPPSLINK=`https://script.googleusercontent.com/macros/echo?user_content_key=LKxwjuinC5ZmWbRncQj0nUwSwXKADTwv5xGfCCv3Tg7LguXyGjMS02QaDDfTOhCeQu5JNm8NUZSWOCRelh4h8pINjcWXmdUmm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnJAxInbGJwPEjZhGCuKhxCZeYLuntfgTpdBTwLd_e6uNDKcc-yF7VHtFnbexc1gXm5RC18NrtK2yu7TVI5lklsMMPmtozgPBbNz9Jw9Md8uu&lib=MzcnxIwsQ0SlCWA4i-RzuSuzilWmV86UI`;
-
 const PREMIUMPAYAMENTLINK=``;
 
 const MOVIELANDERPAGELINK='hehe';
 
-const FREEMOVIESLINK=`https://script.googleusercontent.com/macros/echo?user_content_key=HKt-oFgq9a8pP6TFyPPkT_qhaTlGetxG2UYPkNQxW1_DqippS6C69CuSbjuKoWOY2MQtV7TGIaIn00_6n6HUrUIbtmWEb0A3m5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnG-yaZykjSDVpa22v3k4sN9hO6SWDHV_YK53U_Ee33aDg-Fk-JZJLpowmpSd2FzRq8YfXH-Sm77UiQMhAb443E7fniuLu6rw4tz9Jw9Md8uu&lib=M4nmkbmqn1uDLvVyEshwWJ-zilWmV86UI`;
-
 const ForgotPasswordLink='ikg';
-
-const Termslinks='https://e-corpcompanygroupmovieslander.github.io/MovieLander/TermsAndConditionPage/TermsAndConditions.txt';
 
 const CreateAccountlink='https://sheetdb.io/api/v1/ycr0xzpkq59v7';
 
+const MONITORINGLINK=`https://sheetdb.io/api/v1/7ggamn0q7761a`;
+
 const MODE='cors';
 
-const MOVIEPATH='https://drive.google.com/uc?export=download&id=';
-
 const NewVersion='7.2';
+
+const UpatedNeeded='';
