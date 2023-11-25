@@ -46,7 +46,7 @@ const MOVIELANDERPAGELINK='hehe';
 
 const ForgotPasswordLink='ikg';
 
-const CreateAccountlink='https://sheetdb.io/api/v1/oozrybylg79sl';
+const CreateAccountlink='https://script.google.com/macros/s/AKfycbxmSh3p2o97ORd3n9XVG5vloutvntdnp96_T47er84mAuLMvmIL-kc-VYtge-YGxyES/exec';
 
 const MONITORINGLINK=`https://sheetdb.io/api/v1/7ggamn0q7761a`;
 
