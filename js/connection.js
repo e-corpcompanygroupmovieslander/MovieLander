@@ -36,7 +36,7 @@ const MONITORINGLINK=`https://script.google.com/macros/s/AKfycbzs1DXDZ81I9X8J4gN
 
 const CreateAccountlink=`https://script.google.com/macros/s/AKfycbxmSh3p2o97ORd3n9XVG5vloutvntdnp96_T47er84mAuLMvmIL-kc-VYtge-YGxyES/exec`;
 
-const NewVersion='7.3';
+const NewVersion='7.4';
 
 const UpatedNeeded='TRUE';
 
