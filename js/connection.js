@@ -50,7 +50,7 @@ const CreateAccountlink='https://script.google.com/macros/s/AKfycbxmSh3p2o97ORd3
 
 const MONITORINGLINK=`https://sheetdb.io/api/v1/7ggamn0q7761a`;
 
-const MODE='cors';
+const MODE='cors'||'no-cors';
 
 const NewVersion='7.3';
 
