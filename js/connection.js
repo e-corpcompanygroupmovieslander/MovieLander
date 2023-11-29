@@ -36,7 +36,7 @@ const MONITORINGLINK=`https://script.google.com/macros/s/AKfycbz_L9FMiYhoZwpsSOr
 
 const CreateAccountlink=`https://script.google.com/macros/s/AKfycbyxZa-t073EY1dMSxIUXuiXD9B03gcgaJyGTpXvV8qpRPG6TGMtk6WKocQ8Rsf0aXEF/exec`;
 
-const CHATLINK='www.chaton.bio';
+const CHATLINK='https://www.chaton.bio';
 
 const DELETEUSERACCOUNTLINK='https://e-corpcompanygroupmovieslander.github.io/MovieLander/AccountDeletion/AccountDeletion.html';
 
