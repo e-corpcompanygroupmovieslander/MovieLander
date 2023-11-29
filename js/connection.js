@@ -53,3 +53,5 @@ const INSTAGRAMLINK=`ig`;
 const PREMIUMPAYAMENTLINK=``;
 
 const MOVIELANDERPAGELINK='hehe';
+
+const OWNERSHIP='Property Of E-corp Company Group';
