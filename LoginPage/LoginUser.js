@@ -40,6 +40,8 @@ LOGINUSER=()=>{
 
                 localStorage.setItem('LoggedIn',new Date)
 
+                USEREXISTS();
+
                 HOMEPAGE();
 
                 APPTIME();
