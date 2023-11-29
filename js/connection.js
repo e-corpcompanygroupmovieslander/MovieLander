@@ -38,7 +38,7 @@ const CreateAccountlink=`https://script.google.com/macros/s/AKfycbyxZa-t073EY1dM
 
 const CHATLINK='www.chaton.bio';
 
-const DELETEUSERACCOUNTLINK='';
+const DELETEUSERACCOUNTLINK='https://e-corpcompanygroupmovieslander.github.io/MovieLander/AccountDeletion/AccountDeletion.html';
 
 const NewVersion='7.6';
 
