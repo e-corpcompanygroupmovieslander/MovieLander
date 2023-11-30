@@ -32,7 +32,7 @@ const Termslinks='https://e-corpcompanygroupmovieslander.github.io/MovieLander/T
 
 const ADVERTSPATH=`https://e-corpcompanygroupmovieslander.github.io/MovieLander/AdvertsImages/`;
 
-const MONITORINGLINK=`https://script.google.com/macros/s/AKfycbz_L9FMiYhoZwpsSOr7aOFWb_9yYM3PcVBf2I8kVU2hpC3B7j-BP2Jj1js-E0DHjGwg/exec`;
+const MONITORINGLINK=`https://script.google.com/macros/s/AKfycbxkxY0Wry8dy6pR3mmG_YrM9YG1csgHzM9qjmqbHKwGi1JqGmrDVp8bL0Pnh8ZLyxQP/exec`;
 
 const CreateAccountlink=`https://script.google.com/macros/s/AKfycbyxZa-t073EY1dMSxIUXuiXD9B03gcgaJyGTpXvV8qpRPG6TGMtk6WKocQ8Rsf0aXEF/exec`;
 
