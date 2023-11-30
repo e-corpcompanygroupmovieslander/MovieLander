@@ -40,7 +40,7 @@ const CHATLINK='https://www.chaton.bio';
 
 const DELETEUSERACCOUNTLINK='https://e-corpcompanygroupmovieslander.github.io/MovieLander/AccountDeletion/AccountDeletion.html';
 
-const NewVersion='7.6';
+const NewVersion='7.7';
 
 const UpatedNeeded='TRUE';
 
