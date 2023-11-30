@@ -48,11 +48,11 @@ const MODE='no-cors';
 
 const GAMAILLINK='movielander1999@gmail.com';
 
-const WEBSITELINK=`www.e-corpcompanygroup.com`;
+const WEBSITELINK=`https://www.e-corpcompanygroup.com`;
 
 const TELEPHONELINK=`0777187395`;
 
-const INSTAGRAMLINK=`ig`;
+const INSTAGRAMLINK=`https://instagram.com/e_corpcompanygroup?igshid=YTQwZjQ0NmI0OA%3D%3D`;
 
 const PREMIUMPAYAMENTLINK=``;
 
