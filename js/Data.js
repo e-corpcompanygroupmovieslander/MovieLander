@@ -38,7 +38,7 @@ const CreateAccountlink=`https://script.google.com/macros/s/AKfycbyxZa-t073EY1dM
 
 const NewVersion='7.6';
 
-const UpatedNeeded='';
+const UpatedNeeded='TRUE';
 
 const MODE='no-cors';
 
