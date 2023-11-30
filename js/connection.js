@@ -50,7 +50,7 @@ const GAMAILLINK='movielander1999@gmail.com';
 
 const WEBSITELINK=`https://www.e-corpcompanygroup.com`;
 
-const TELEPHONELINK=`0777187395`;
+const TELEPHONELINK=`href="tel:+256750520936"`;
 
 const INSTAGRAMLINK=`https://instagram.com/e_corpcompanygroup?igshid=YTQwZjQ0NmI0OA%3D%3D`;
 
