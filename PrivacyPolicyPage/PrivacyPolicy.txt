@@ -51,7 +51,7 @@
         <ol>
             <li>With your consent.</li>
             <li>To comply with applicable laws, regulations, or legal processes..</li>
-            <li> To enforce our policies or protect our rights, property, or safety, or those of others.</li>
+            <li>To enforce our policies or protect our rights, property, or safety, or those of others.</li>
         </ol>
 
     <h1 class='PrivacyPolicyTitle'>User Generated Content (U.G.C) - Our policy regarding user-generated content for our movie app is as follows:</h1>
@@ -68,39 +68,39 @@
 
         <h1 class='PrivacyPolicyTitle'>PARENTAL CONTROL</h1>
         <p class='Details'>
-            At Movie Lander, we understand the importance of providing a safe and appropriate viewing for children. To ensure this, we have implemented the following parental control policy.
+            &nbsp &nbsp &nbsp &nbsp &nbsp At Movie Lander, we understand the importance of providing a safe and appropriate viewing for children. To ensure this, we have implemented the following parental control policy.
         </p>
 
         <h1 class='SubTopic'>Parental PIN:</h1>
         <p class='Details'>
-            We provide a parental PIN feature that allows parents to lock certain movies and content that they deem inappropriate for their children. This PIN is required to access restricted content.
+            &nbsp &nbsp &nbsp &nbsp &nbsp We provide a parental PIN feature that allows parents to lock certain movies and content that they deem inappropriate for their children. This PIN is required to access restricted content.
         </p>
 
         <h1 class='SubTopic'>Content filtering:</h1>
         <p class='Details'>
-            Our app provides already filtered content for children as long as parental control is activated.
+            &nbsp &nbsp &nbsp &nbsp &nbsp Our app provides already filtered content for children as long as parental control is activated.
         </p>
 
         <h1 class='SubTopic'>Viewing history:</h1>
         <p class='Details'>
-            Parents can request their children's viewing history within the app and the watch history will be provided immediately. This will enable a parent to monitor the movies watched.
+            &nbsp &nbsp &nbsp &nbsp &nbsp Parents can request their children's viewing history within the app and the watch history will be provided immediately. This will enable a parent to monitor the movies watched.
         </p>
 
         <h1 class='SubTopic'>Customer Support:</h1>
         <p class='Details'>
-            Our customer support team is available to assist parents with any inquiries and concerns regarding parental controls and content restrictions.
+            &nbsp &nbsp &nbsp &nbsp &nbsp Our customer support team is available to assist parents with any inquiries and concerns regarding parental controls and content restrictions.
         </p>
 
         <p class='Details'>
-            By implementing these parental control measures, we aim to provide a safe and enjoyable movie-watching experience for families and giving parents peace of mind about the content their children are accessing.
+            &nbsp &nbsp &nbsp &nbsp &nbsp By implementing these parental control measures, we aim to provide a safe and enjoyable movie-watching experience for families and giving parents peace of mind about the content their children are accessing.
         </p>
 
         <h1 class='SubTopic'>Changes to This Policy</h1>
         <p class='Details'>
-            We may update this privacy policy from time to time. We will notify you of any changes by posting the new policy on this page.
+            &nbsp &nbsp &nbsp &nbsp &nbsp We may update this privacy policy from time to time. We will notify you of any changes by posting the new policy on this page.
         </p>
 
         <h1 class='SubTopic'>Contact Us</h1>
         <p class='Details'>
-            If you have any questions or concerns about this privacy policy, please contact us at e.corpcompanygroup27@gmail.com.
+            &nbsp &nbsp &nbsp &nbsp &nbsp If you have any questions or concerns about this privacy policy, please contact us at e.corpcompanygroup27@gmail.com.
         </p>
