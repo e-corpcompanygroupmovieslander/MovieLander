@@ -22,6 +22,7 @@
     <p class='Details'>
         &nbsp &nbsp &nbsp &nbsp &nbsp We collect information about the device you use to access the app, including the device type, operating system, and browser type.
     </p>
+    <br><br>
 
     <h1 class='PrivacyPolicyTitle'>How We Use Your Information</h1>
 
@@ -32,9 +33,9 @@
             <li>Provide you with access to the app's features and services.</li>
             <li>Personalize your experience with the app.</li>
             <li>Improve the app's functionality and performance.</li>
-            <li>Communicate with you about the app and its feature</li>
+            <li>Communicate with you about the app and its feature.</li>
             <li>Send you promotional offers and other marketing materials.</li>
-            <li>To prevent froud.</li>
+            <li>To prevent fraud.</li>
         </ol>
         
     </p>
@@ -60,11 +61,13 @@
             &nbsp &nbsp &nbsp &nbsp &nbsp If a user continues to violate our regulations and guidelines, they will receive a warning notification multiple times. However, if the violations persist, the account will be indefinitely blocked by management.<br>
             &nbsp &nbsp &nbsp &nbsp &nbsp By submitting content to our app, users grant us the right to display and distribute their content on our platform. We do not claim ownership of user-generated content, but we may use it for promotional or marketing purposes. Users are responsible for ensuring that their content does not infringe upon the rights of others, and we will not be held liable for any user-generated content that violates copyright or other laws.
         </p>
+        <br><br>
     
         <h1 class='SubTopic'>Account Deletion - Our policy regarding account deletion is as follows:</h1>
         <p class='Details'>
             &nbsp &nbsp &nbsp &nbsp &nbsp Users have the right to delete their accounts at any time. Upon deletion, we will permanently remove all personal information and data associated with the account except your user email because it will be used for tracking. Please note that once an account is deleted, it cannot be recovered, and all associated information will be lost. We are committed to protecting the privacy and security of our users and will promptly fulfill all account deletion requests in accordance with applicable laws and regulations.
         </p>
+        <br><br>
 
         <h1 class='PrivacyPolicyTitle'>PARENTAL CONTROL</h1>
         <p class='Details'>
