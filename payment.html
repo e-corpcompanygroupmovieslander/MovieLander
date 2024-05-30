@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Confirmation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            background: #121212;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #343a40;
+            
+        }
+        .confirmation-container {
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+        .confirmation-container h1 {
+            color: #28a745;
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+        .order-summary {
+            text-align: left;
+            margin: 30px 0;
+            background-color: #f1f1f1;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .order-summary h2 {
+            margin-bottom: 15px;
+            font-size: 1.2em;
+            color: #007bff;
+        }
+        .order-summary p {
+            margin: 10px 0;
+            font-size: 1em;
+        }
+        .order-summary p strong {
+            display: inline-block;
+            width: 150px;
+        }
+        .next-steps {
+            margin-top: 30px;
+        }
+        .next-steps h2 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+        .next-steps a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .next-steps ul {
+            list-style: none;
+            padding: 0;
+        }
+        .next-steps ul li {
+            margin: 10px 0;
+        }
+        .contact-info {
+            margin-top: 30px;
+            color: #6c757d;
+            font-size: 0.9em;
+        }
+        .contact-info a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .footer {
+            margin-top: 40px;
+            font-size: 0.8em;
+            color: #adb5bd;
+        }
+        .BackButton{
+            background: forestgreen;
+            width: 90%;
+            height: 50px;
+            border: none;
+            left: 5%;
+            border-radius: 40px;
+            color: whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <div class="confirmation-container">
+        <h1>Thank You for Your Purchase!</h1>
+        <p>Your payment was successful. Here are the details of your order:</p>
+
+        <div class="order-summary">
+            <h2>Order Summary</h2>
+            <p><strong>Order Number:</strong> <span id="orderTrackingId"></span></p>
+            <p><strong>Date:</strong> <span id="orderDate"></span></p>
+        </div>
+
+        <div class="contact-info">
+            <p>If you have any questions, please contact our support team at <br><br> <a href="mailto:movielander1999@gmail.com">Movie Lander Tech Support</a>.</p>
+        </div>
+        
+        <div class="footer">
+            <p>&copy; 2024 Movie Lander. All rights reserved.</p>
+        </div>
+    </div>
+
+    <script>
+        // Function to get all URL parameters and save to localStorage
+        function getUrlParams() {
+            const params = new URLSearchParams(window.location.search);
+            const paramsObj = {};
+
+            params.forEach((value, key) => {
+                paramsObj[key] = value;
+            });
+
+            // Extract user value between 'User:' and 'Payment' if it exists in full URL
+            const userPattern = /User:(.*?)Payment/;
+            const match = window.location.href.match(userPattern);
+            if (match && match[1]) {
+                paramsObj['user'] = match[1].trim();
+            }
+
+            // Extract Payment value from URL directly
+            const paymentParam = params.get('Payment');
+            paramsObj['Payment'] = paymentParam;
+
+            // Extract text between Payment and OrderTrackingId
+            const paymentText = window.location.href.split('Payment=')[1].split('&OrderTrackingId=')[0];
+            paramsObj['payments'] = paymentText;
+
+            return paramsObj;
+        }
+
+        // Function to format the current date
+        function formatDate(date) {
+            const options = { year: 'numeric', month: 'long', day: 'numeric' };
+            return date.toLocaleDateString(undefined, options);
+        }
+
+        // Execute when the DOM is fully loaded
+        document.addEventListener("DOMContentLoaded", function() {
+            const urlParams = getUrlParams();
+            const orderDate = formatDate(new Date());
+
+            document.getElementById('orderTrackingId').textContent = urlParams.OrderMerchantReference || '';
+            document.getElementById('orderDate').textContent = orderDate;
+            localStorage.setItem('payment', JSON.stringify(urlParams));
+
+            if (localStorage.getItem('payment')) {
+                const DATA = JSON.parse(localStorage.getItem('payment'));
+
+                let expiryDate;
+
+                // Correctly calculate expiry date based on payment frequency
+                if (DATA.payments === 'Daily') {
+                    expiryDate = new Date();
+                    expiryDate.setDate(expiryDate.getDate() + 1); // Add 1 day
+                } else if (DATA.payments === 'Weekly') {
+                    expiryDate = new Date();
+                    expiryDate.setDate(expiryDate.getDate() + 7); // Add 7 days
+                } else if (DATA.payments === 'Monthly') {
+                    expiryDate = new Date();
+                    expiryDate.setMonth(expiryDate.getMonth() + 1); // Add 1 month
+                } else if (DATA.payments === 'Yearly') {
+                    expiryDate = new Date();
+                    expiryDate.setFullYear(expiryDate.getFullYear() + 1); // Add 1 year
+                }
+
+                const USERDATA = {
+                    "SecretCode": DATA.user,
+                    "Premium": "Premium",
+                    "PremiumMessage": `You Have Paid ${DATA.payments} and expires on ${expiryDate.toDateString()} with OrderTrackingId ${DATA.OrderTrackingId}`,
+                    "PremiumDatePay": new Date(),
+                    "PremiumDateExpiry": expiryDate,
+                    "PremiumType": DATA.payments,
+                    "PremiumNumber": DATA.OrderTrackingId
+                };
+
+                console.log(USERDATA)
+
+                const URL = 'https://script.google.com/macros/s/AKfycbzJDLzOlQYfL-65FCy8Qzk8NX9cTSchs_ykOtxHMuqrnW6wJfPaxCTlkwBoPXM5QB3Y/exec';
+
+                fetch(URL, {
+                    method: "POST",
+                    body: JSON.stringify(USERDATA)
+                })
+                .then(res => {
+                    if (!res.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return res.text();
+                })
+                .then(data => {
+
+                    const ordersummary=document.querySelector('.order-summary');
+                   
+                    ordersummary.innerHTML=`
+
+                        <p>Payment Completed </p>
+
+                        <button onclick='Back' class='BackButton'>Thank You</button>
+
+                    `;
+
+                    open('https://play.google.com/store/apps/details?id=com.movie_lander&pcampaignid=web_share')
+
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+            }
+        });
+
+    </script>
+</body>
+</html>
